@@ -1,0 +1,174 @@
+# Created by Ultra Librarian Gold 8.1.204 Copyright © 1999-2016
+# Jeff Perry - Server, Texas Instruments
+
+StartFootprints
+
+Footprint (Name "RGT0016C")
+Pad (Name "1") (Location -55.1181, 29.5276) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste -4)
+PadShape (Size 9.44880009, 23.62199974) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "2") (Location -55.1181, 9.8426) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste -4)
+PadShape (Size 9.44880009, 23.62199974) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "3") (Location -55.1181, -9.8425) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste -4)
+PadShape (Size 9.44880009, 23.62199974) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "4") (Location -55.1181, -29.5275) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste -4)
+PadShape (Size 9.44880009, 23.62199974) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "5") (Location -29.5275, -55.1181) (Surface True) (Rotation 0) (ExpandMask 2) (ExpandPaste -4)
+PadShape (Size 9.44880009, 23.62199974) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "6") (Location -9.8425, -55.1181) (Surface True) (Rotation 0) (ExpandMask 2) (ExpandPaste -4)
+PadShape (Size 9.44880009, 23.62199974) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "7") (Location 9.8426, -55.1181) (Surface True) (Rotation 0) (ExpandMask 2) (ExpandPaste -4)
+PadShape (Size 9.44880009, 23.62199974) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "8") (Location 29.5276, -55.1181) (Surface True) (Rotation 0) (ExpandMask 2) (ExpandPaste -4)
+PadShape (Size 9.44880009, 23.62199974) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "9") (Location 55.1181, -29.5275) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste -4)
+PadShape (Size 9.44880009, 23.62199974) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "10") (Location 55.1181, -9.8425) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste -4)
+PadShape (Size 9.44880009, 23.62199974) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "11") (Location 55.1181, 9.8426) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste -4)
+PadShape (Size 9.44880009, 23.62199974) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "12") (Location 55.1181, 29.5276) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste -4)
+PadShape (Size 9.44880009, 23.62199974) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "13") (Location 29.5276, 55.1181) (Surface True) (Rotation 0) (ExpandMask 2) (ExpandPaste -4)
+PadShape (Size 9.44880009, 23.62199974) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "14") (Location 9.8426, 55.1181) (Surface True) (Rotation 0) (ExpandMask 2) (ExpandPaste -4)
+PadShape (Size 9.44880009, 23.62199974) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "15") (Location -9.8425, 55.1181) (Surface True) (Rotation 0) (ExpandMask 2) (ExpandPaste -4)
+PadShape (Size 9.44880009, 23.62199974) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "16") (Location -29.5275, 55.1181) (Surface True) (Rotation 0) (ExpandMask 2) (ExpandPaste -4)
+PadShape (Size 9.44880009, 23.62199974) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "17") (Location 0.0001, 0) (Surface True) (Rotation 0) (ExpandMask 2) (ExpandPaste -32.96455002)
+PadShape (Size 66.92910004, 66.92910004) (Shape Rectangular) (Layer Top)
+EndPad
+Line (Width 7.87400007) (Start -67.9133, 43.3071) (End -67.9133, 67.9134) (Layer TopOverlay) 
+Line (Width 7.87400007) (Start -67.9133, 67.9134) (End -43.3071, 67.9134) (Layer TopOverlay) 
+Line (Width 7.87400007) (Start 60.0394, 67.9134) (End 67.9133, 67.9134) (Layer TopOverlay) 
+Line (Width 7.87400007) (Start 67.9133, 60.0395) (End 67.9133, 67.9134) (Layer TopOverlay) 
+Line (Width 7.87400007) (Start 67.9133, -67.9134) (End 67.9133, -60.0395) (Layer TopOverlay) 
+Line (Width 7.87400007) (Start 60.0394, -67.9134) (End 67.9133, -67.9134) (Layer TopOverlay) 
+Line (Width 7.87400007) (Start -67.9133, -67.9134) (End -67.9133, -60.0395) (Layer TopOverlay) 
+Line (Width 7.87400007) (Start -67.9133, -67.9134) (End -60.0394, -67.9134) (Layer TopOverlay) 
+Text (Location -62, 122) (Height 50) (Width 3) (Rotation 0) (Layer TopOverlay) (Value "Designator70")
+Polygon (PointCount 4) (Layer TopPaste) 
+Point (-30.4921, -30.4921)
+Point (30.4921, -30.4921)
+Point (30.4921, 30.4921)
+Point (-30.4921, 30.4921)
+EndPolygon
+Step (Name RGT0016C.stp)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "WB_CURRENT_LOAD") (PartCount 1) (DesPrefix "?")
+Pin (Location -200, 0) (Rotation 180) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "1") (Name Hidden "+") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Pin (Location 200, 0) (Rotation 0) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "2") (Name Hidden "-") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Line (Width 6) (Start 300, 0) (End 150, 0) (Part 1)
+Line (Width 6) (Start -150, 0) (End -300, 0) (Part 1)
+Line (Width 6) (Start 30, -70) (End 120, 0) (Part 1)
+Line (Width 6) (Start 30, 70) (End 120, 0) (Part 1)
+Line (Width 6) (Start 120, 0) (End -120, 0) (Part 1)
+Arc (Width 6) (Radius 152) (Location 2.33282859, 1.10041772) (StartAngle 180.41389465) (EndAngle 224.67224503) (Part 1)
+Arc (Width 6) (Radius 151) (Location 0.35195143, 0.52969766) (StartAngle 225.04780579) (EndAngle 269.86600494) (Part 1)
+Arc (Width 6) (Radius 149) (Location 0.38249863, -1.2396552) (StartAngle 269.85269165) (EndAngle 315.23345184) (Part 1)
+Arc (Width 6) (Radius 148) (Location 1.87858923, -0.64771573) (StartAngle 314.66329956) (EndAngle 360.25051117) (Part 1)
+Arc (Width 6) (Radius 152) (Location -2.33282859, -1.10041772) (StartAngle 0.41388449) (EndAngle 44.67223486) (Part 1)
+Arc (Width 6) (Radius 151) (Location -0.35195143, -0.52969766) (StartAngle 45.04784012) (EndAngle 89.86603928) (Part 1)
+Arc (Width 6) (Radius 149) (Location -0.38249863, 1.2396552) (StartAngle 89.85267639) (EndAngle 135.23343658) (Part 1)
+Arc (Width 6) (Radius 148) (Location -1.87858923, 0.64771573) (StartAngle 134.66329956) (EndAngle 180.25051117) (Part 1)
+Parameter (Name "Value") (Location 0, 0) (Height 82) (Rotation 0) (Justification Center) (Value "Value") (Part 1)
+Parameter (Name "Manufacturer_Part_Number") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "WB_CURRENT_LOAD") (Part 1)
+Parameter (Name "Manufacturer_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "WB_CURRENT_LOAD") (Part 1)
+Parameter (Name "PowerPortType") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "POWER_GROUND") (Part 1)
+Parameter (Name "RefDes") (Location 0, 0) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Parameter (Name "TYPE") (Location 0, 0) (Height 82) (Rotation 0) (Justification Center) (Value "TYPE") (Part 1)
+EndComponent
+
+Component (Name "BQ24232RGTR") (PartCount 1) (DesPrefix "U?")
+Pin (Location 600, -300) (Rotation 0) (PinType Input) (Length 200) (Width 0) (Designator Visible "1") (Name Visible "TS") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Pin (Location 600, 0) (Rotation 0) (PinType IO) (Length 200) (Width 0) (Designator Visible "2") (Name Visible "BAT") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Pin (Location 600, -100) (Rotation 0) (PinType IO) (Length 200) (Width 0) (Designator Visible "3") (Name Visible "BAT") (PinSwap 0) (PartSwap 0) (PinSeq 3) (Part 1)
+Pin (Location -600, -300) (Rotation 180) (PinType Input) (Length 200) (Width 0) (Designator Visible "4") (Name Visible "CE_N") (PinSwap 0) (PartSwap 0) (PinSeq 4) (Part 1)
+Pin (Location -600, 100) (Rotation 180) (PinType Input) (Length 200) (Width 0) (Designator Visible "5") (Name Visible "EN2") (PinSwap 0) (PartSwap 0) (PinSeq 5) (Part 1)
+Pin (Location -600, 200) (Rotation 180) (PinType Input) (Length 200) (Width 0) (Designator Visible "6") (Name Visible "EN1") (PinSwap 0) (PartSwap 0) (PinSeq 6) (Part 1)
+Pin (Location 600, 200) (Rotation 0) (PinType OpenCollector) (Length 200) (Width 0) (Designator Visible "7") (Name Visible "PGOOD_N") (PinSwap 0) (PartSwap 0) (PinSeq 7) (Part 1)
+Pin (Location 600, -600) (Rotation 0) (PinType Power) (Length 200) (Width 0) (Designator Visible "8") (Name Visible "VSS") (PinSwap 0) (PartSwap 0) (PinSeq 8) (Part 1)
+Pin (Location 600, 400) (Rotation 0) (PinType OpenCollector) (Length 200) (Width 0) (Designator Visible "9") (Name Visible "CHG_N") (PinSwap 0) (PartSwap 0) (PinSeq 9) (Part 1)
+Pin (Location 600, 700) (Rotation 0) (PinType Power) (Length 200) (Width 0) (Designator Visible "10") (Name Visible "OUT") (PinSwap 0) (PartSwap 0) (PinSeq 10) (Part 1)
+Pin (Location 600, 600) (Rotation 0) (PinType Power) (Length 200) (Width 0) (Designator Visible "11") (Name Visible "OUT") (PinSwap 0) (PartSwap 0) (PinSeq 11) (Part 1)
+Pin (Location -600, 400) (Rotation 180) (PinType Input) (Length 200) (Width 0) (Designator Visible "12") (Name Visible "ILIM") (PinSwap 0) (PartSwap 0) (PinSeq 12) (Part 1)
+Pin (Location -600, 700) (Rotation 180) (PinType Power) (Length 200) (Width 0) (Designator Visible "13") (Name Visible "IN") (PinSwap 0) (PartSwap 0) (PinSeq 13) (Part 1)
+Pin (Location -600, -500) (Rotation 180) (PinType Input) (Length 200) (Width 0) (Designator Visible "14") (Name Visible "TMR") (PinSwap 0) (PartSwap 0) (PinSeq 14) (Part 1)
+Pin (Location -600, -100) (Rotation 180) (PinType Input) (Length 200) (Width 0) (Designator Visible "15") (Name Visible "ITERM") (PinSwap 0) (PartSwap 0) (PinSeq 15) (Part 1)
+Pin (Location -600, -700) (Rotation 180) (PinType Input) (Length 200) (Width 0) (Designator Visible "16") (Name Visible "ISET") (PinSwap 0) (PartSwap 0) (PinSeq 16) (Part 1)
+Pin (Location 600, -700) (Rotation 0) (PinType Power) (Length 200) (Width 0) (Designator Visible "17") (Name Visible "EP") (PinSwap 0) (PartSwap 0) (PinSeq 17) (Part 1)
+Rectangle (Width 5) (Start -600, -900) (End 600, 900) (Part 1)
+Parameter (Name "PartNumber") (Location -820, 5830) (Height 82) (Rotation 0) (Justification BottomLeft) (Value "BQ24232RGTR") (Part 1)
+Parameter (Name "Alternate_PartNumber") (Location -820, 5830) (Height 82) (Rotation 0) (Justification BottomLeft) (Value "BQ24232RGTT") (Part 1)
+Parameter (Name "PackageReference") (Location -820, 5830) (Height 82) (Rotation 0) (Justification BottomLeft) (Value "RGT0016C") (Part 1)
+Parameter (Name "MountType") (Location -820, 5830) (Height 82) (Rotation 0) (Justification BottomLeft) (Value "SMT") (Part 1)
+Parameter (Name "CompType") (Location -820, 5830) (Height 82) (Rotation 0) (Justification BottomLeft) (Value "IC") (Part 1)
+Parameter (Name "RoHS") (Location -820, 5830) (Height 82) (Rotation 0) (Justification BottomLeft) (Value "Y") (Part 1)
+Parameter (Name "Manufacturer") (Location -820, 5830) (Height 82) (Rotation 0) (Justification BottomLeft) (Value "Texas Instruments") (Part 1)
+Parameter (Name "RefDes") (Location 0, 100) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Parameter (Name "Type") (Location 0, 0) (Height 82) (Rotation 0) (Justification Center) (Value "DEV") (Part 1)
+Parameter (Name "Value") (Location 0, 0) (Height 82) (Rotation 0) (Justification Center) (Value "Value") (Part 1)
+Parameter (Name "PIN_COUNT") (Location 0, 0) (Height 82) (Rotation 0) (Justification Center) (Value "17") (Part 1)
+Parameter (Name "Manufacturer_Part_Number") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "BQ24232RGTR") (Part 1)
+Parameter (Name "Manufacturer_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Texas Instruments") (Part 1)
+Parameter (Name "Alternate_PartNumber") (Location -820, 5830) (Height 82) (Rotation 0) (Justification BottomLeft) (Value "BQ24232RGTT") (Part 1)
+Footprint (Name "RGT0016C")
+EndComponent
+
+Component (Name "WB_GND") (PartCount 1) (DesPrefix "?")
+Pin (Location 0, 0) (Rotation 90) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "1") (Name Hidden "1") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Line (Width 6) (Start 0, 100) (End 0, 0) (Part 1)
+Line (Width 6) (Start -130, 0) (End 130, 0) (Part 1)
+Line (Width 6) (Start -90, -40) (End 90, -40) (Part 1)
+Line (Width 6) (Start -30, -80) (End 30, -80) (Part 1)
+Parameter (Name "Value") (Location 0, 0) (Height 82) (Rotation 0) (Justification Center) (Value "Value") (Part 1)
+Parameter (Name "Manufacturer_Part_Number") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "WB_GND") (Part 1)
+Parameter (Name "Manufacturer_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "WB_GND") (Part 1)
+Parameter (Name "PowerPortType") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "POWER_GROUND") (Part 1)
+Parameter (Name "RefDes") (Location 0, 0) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Parameter (Name "TYPE") (Location 0, 0) (Height 82) (Rotation 0) (Justification Center) (Value "TYPE") (Part 1)
+EndComponent
+
+Component (Name "WB_BATTERY") (PartCount 1) (DesPrefix "?")
+Pin (Location -200, 0) (Rotation 180) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "1") (Name Hidden "+") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Pin (Location 200, 0) (Rotation 0) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "2") (Name Hidden "-") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Line (Width 6) (Start -80, 0) (End -300, 0) (Part 1)
+Line (Width 6) (Start -70, -120) (End -70, 120) (Part 1)
+Line (Width 6) (Start 40, -120) (End 40, 120) (Part 1)
+Line (Width 6) (Start 300, 0) (End 110, 0) (Part 1)
+Line (Width 6) (Start -20, -50) (End -20, 50) (Part 1)
+Line (Width 6) (Start -10, -50) (End -10, 50) (Part 1)
+Line (Width 6) (Start -140, 90) (End -140, 150) (Part 1)
+Line (Width 6) (Start -110, 120) (End -170, 120) (Part 1)
+Line (Width 6) (Start 130, 100) (End 130, 150) (Part 1)
+Line (Width 6) (Start 100, -50) (End 100, 50) (Part 1)
+Line (Width 6) (Start 90, -50) (End 90, 50) (Part 1)
+Parameter (Name "Value") (Location 0, 0) (Height 82) (Rotation 0) (Justification Center) (Value "Value") (Part 1)
+Parameter (Name "Manufacturer_Part_Number") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "WB_BATTERY") (Part 1)
+Parameter (Name "Manufacturer_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "WB_BATTERY") (Part 1)
+Parameter (Name "PowerPortType") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "POWER_GROUND") (Part 1)
+Parameter (Name "RefDes") (Location 0, 200) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Parameter (Name "TYPE") (Location 0, 0) (Height 82) (Rotation 0) (Justification Center) (Value "TYPE") (Part 1)
+EndComponent
+EndComponents

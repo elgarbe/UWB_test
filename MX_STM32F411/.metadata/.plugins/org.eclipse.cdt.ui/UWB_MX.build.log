@@ -1,0 +1,69 @@
+20:06:17 **** Incremental Build of configuration Debug for project UWB_MX ****
+make all 
+Building file: ../Src/application/dw_main.c
+Invoking: MCU GCC Compiler
+E:\UWB\MX_STM32F411\UWB_MX\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F411xE -I"E:/UWB/MX_STM32F411/UWB_MX/Inc" -I"E:/UWB/MX_STM32F411/UWB_MX/Src/pcd8544" -I"E:/UWB/MX_STM32F411/UWB_MX/Src/decadriver" -I"E:/UWB/MX_STM32F411/UWB_MX/Src/application" -I"E:/UWB/MX_STM32F411/UWB_MX/Src/compiler" -I"E:/UWB/MX_STM32F411/UWB_MX/Src/platform" -I"E:/UWB/MX_STM32F411/UWB_MX/Drivers/STM32F4xx_HAL_Driver/Inc" -I"E:/UWB/MX_STM32F411/UWB_MX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"E:/UWB/MX_STM32F411/UWB_MX/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"E:/UWB/MX_STM32F411/UWB_MX/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/application/dw_main.d" -MT"Src/application/dw_main.o" -o "Src/application/dw_main.o" "../Src/application/dw_main.c"
+../Src/application/dw_main.c: In function 'setLCDline1':
+../Src/application/dw_main.c:260:15: warning: pointer targets in passing argument 1 of 'PCD8544_Puts' differ in signedness [-Wpointer-sign]
+  PCD8544_Puts(dataseq, PCD8544_Pixel_Set, PCD8544_FontSize_5x7);
+               ^
+In file included from ../Src/application/dw_main.c:24:0:
+E:/UWB/MX_STM32F411/UWB_MX/Src/pcd8544/pcd8544.h:335:13: note: expected 'char *' but argument is of type 'uint8 * {aka unsigned char *}'
+ extern void PCD8544_Puts(char *c, PCD8544_Pixel_t color, PCD8544_FontSize_t size);
+             ^
+../Src/application/dw_main.c: In function 'dw_main':
+../Src/application/dw_main.c:327:18: warning: pointer targets in passing argument 1 of 'PCD8544_Puts' differ in signedness [-Wpointer-sign]
+     PCD8544_Puts(dataseq, PCD8544_Pixel_Set, PCD8544_FontSize_5x7);
+                  ^
+In file included from ../Src/application/dw_main.c:24:0:
+E:/UWB/MX_STM32F411/UWB_MX/Src/pcd8544/pcd8544.h:335:13: note: expected 'char *' but argument is of type 'uint8 * {aka unsigned char *}'
+ extern void PCD8544_Puts(char *c, PCD8544_Pixel_t color, PCD8544_FontSize_t size);
+             ^
+../Src/application/dw_main.c:333:18: warning: pointer targets in passing argument 1 of 'PCD8544_Puts' differ in signedness [-Wpointer-sign]
+     PCD8544_Puts(dataseq, PCD8544_Pixel_Set, PCD8544_FontSize_5x7);
+                  ^
+In file included from ../Src/application/dw_main.c:24:0:
+E:/UWB/MX_STM32F411/UWB_MX/Src/pcd8544/pcd8544.h:335:13: note: expected 'char *' but argument is of type 'uint8 * {aka unsigned char *}'
+ extern void PCD8544_Puts(char *c, PCD8544_Pixel_t color, PCD8544_FontSize_t size);
+             ^
+../Src/application/dw_main.c:370:22: warning: pointer targets in passing argument 1 of 'PCD8544_Puts' differ in signedness [-Wpointer-sign]
+         PCD8544_Puts(dataseq, PCD8544_Pixel_Set, PCD8544_FontSize_5x7);
+                      ^
+In file included from ../Src/application/dw_main.c:24:0:
+E:/UWB/MX_STM32F411/UWB_MX/Src/pcd8544/pcd8544.h:335:13: note: expected 'char *' but argument is of type 'uint8 * {aka unsigned char *}'
+ extern void PCD8544_Puts(char *c, PCD8544_Pixel_t color, PCD8544_FontSize_t size);
+             ^
+../Src/application/dw_main.c:408:22: warning: pointer targets in passing argument 1 of 'PCD8544_Puts' differ in signedness [-Wpointer-sign]
+         PCD8544_Puts(dataseq, PCD8544_Pixel_Set, PCD8544_FontSize_5x7);
+                      ^
+In file included from ../Src/application/dw_main.c:24:0:
+E:/UWB/MX_STM32F411/UWB_MX/Src/pcd8544/pcd8544.h:335:13: note: expected 'char *' but argument is of type 'uint8 * {aka unsigned char *}'
+ extern void PCD8544_Puts(char *c, PCD8544_Pixel_t color, PCD8544_FontSize_t size);
+             ^
+../Src/application/dw_main.c:399:15: warning: unused variable 'command' [-Wunused-variable]
+         uint8 command = 0x0;
+               ^
+../Src/application/dw_main.c:520:14: warning: variable 'n' set but not used [-Wunused-but-set-variable]
+          int n, l = 0, /*txl = 0, rxl = 0,*/ aaddr, taddr, txa, rxa, rng, rng_raw;
+              ^
+../Src/application/dw_main.c:309:12: warning: variable 'avg_result' set but not used [-Wunused-but-set-variable]
+     double avg_result = 0;
+            ^
+Finished building: ../Src/application/dw_main.c
+ 
+Building target: UWB_MX.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F411RETx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "UWB_MX.elf" @"objects.list"   -lm
+Finished building target: UWB_MX.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "UWB_MX.elf" "UWB_MX.bin"
+arm-none-eabi-size "UWB_MX.elf"
+   text	   data	    bss	    dec	    hex	filename
+  28568	    196	   4304	  33068	   812c	UWB_MX.elf
+ 
+
+20:06:19 Build Finished (took 1s.861ms)
+

@@ -1,0 +1,36 @@
+15:12:17 **** Incremental Build of configuration Debug for project test_LCD_Nokia ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MCU GCC Compiler'
+E:\UWB\WS_F030CC\test_LCD_Nokia\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32F1 -DNUCLEO_F103RB -DSTM32F103RBTx -DSTM32 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F030CC/nucleo-f103rb_hal_lib" -I"E:/UWB/WS_F030CC/test_LCD_Nokia/inc" -I"E:/UWB/WS_F030CC/nucleo-f103rb_hal_lib/CMSIS/core" -I"E:/UWB/WS_F030CC/nucleo-f103rb_hal_lib/CMSIS/device" -I"E:/UWB/WS_F030CC/nucleo-f103rb_hal_lib/HAL_Driver/Inc/Legacy" -I"E:/UWB/WS_F030CC/nucleo-f103rb_hal_lib/HAL_Driver/Inc" -I"E:/UWB/WS_F030CC/nucleo-f103rb_hal_lib/Utilities/STM32F1xx_Nucleo" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:5: warning: implicit declaration of function 'PCD8544Init' [-Wimplicit-function-declaration]
+     PCD8544Init();
+     ^
+../src/main.c:29:5: warning: implicit declaration of function 'ClearDisplayBuffer' [-Wimplicit-function-declaration]
+     ClearDisplayBuffer(); //erase
+     ^
+../src/main.c:30:5: warning: implicit declaration of function 'BigNumber' [-Wimplicit-function-declaration]
+     BigNumber(i++); //draw
+     ^
+../src/main.c:31:5: warning: implicit declaration of function 'PCD8544Update' [-Wimplicit-function-declaration]
+     PCD8544Update();      //display
+     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: test_LCD_Nokia.elf'
+'Invoking: MCU GCC Linker'
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -L"E:\UWB\WS_F030CC\nucleo-f103rb_hal_lib\Debug" -T"E:\UWB\WS_F030CC\test_LCD_Nokia\LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "test_LCD_Nokia.elf" @"objects.list"  -lnucleo-f103rb_hal_lib
+'Finished building target: test_LCD_Nokia.elf'
+' '
+make --no-print-directory post-build
+'Generating binary and Printing size information:'
+arm-none-eabi-objcopy -O binary "test_LCD_Nokia.elf" "test_LCD_Nokia.bin"
+arm-none-eabi-size "test_LCD_Nokia.elf"
+   text	   data	    bss	    dec	    hex	filename
+   9772	   1588	   1592	  12952	   3298	test_LCD_Nokia.elf
+' '
+
+15:12:30 Build Finished (took 13s.711ms)
+

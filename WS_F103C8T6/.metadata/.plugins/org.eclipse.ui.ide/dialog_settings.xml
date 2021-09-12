@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT"/>
+			<item value="C:\Users\elgarbe\AppData\Roaming\Ac6\SW4STM32\firmwares\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\Examples\UART\UART_HyperTerminal_DMA\SW4STM32"/>
+			<item value="C:\Users\elgarbe\AppData\Roaming\Ac6\SW4STM32\firmwares\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\Examples\UART\UART_Printf\SW4STM32"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="658" key="DIALOG_X_ORIGIN"/>
+		<item value="341" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

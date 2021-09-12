@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>ex_03a_tx_wait_resp</name>
+	<comment></comment>
+	<projects>
+		<project>dwm1000_f411_hal_lib</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+		<nature>fr.ac6.mcu.ide.core.MCUProjectNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>decadriver</name>
+			<type>2</type>
+			<location>E:/UWB/DW_API_rev2p03_F411/decadriver</location>
+		</link>
+		<link>
+			<name>platform</name>
+			<type>2</type>
+			<location>E:/UWB/DW_API_rev2p03_F411/platform</location>
+		</link>
+	</linkedResources>
+</projectDescription>

@@ -1,0 +1,13 @@
+Part	Manufacturer	Part Number	Quantity	Price	Attribute 1 Name	Attribute 1 Value	Attribute 2 Name	Attribute 2 Value	Attribute 3 Name	Attribute 3 Value	Footprint
+"Cbat"	"MuRata"	"GRM21BR61E475KA12L"	"1"	"0.02"	""	""	""	""	""	""	"0805"
+"Cin"	"MuRata"	"GRM188R61A105KA61D"	"1"	"0.01"	""	""	""	""	""	""	"0603"
+"Cout"	"MuRata"	"GRM21BR61E475MA12L"	"1"	"0.02"	""	""	""	""	""	""	"0805"
+"Rchg"	"Vishay-Dale"	"CRCW04021K50FKED"	"1"	"0.01"	"Resistance"	"1.5kOhm"	"Tolerance"	"1%"	"Power"	"0.063W"	"0402"
+"Rilim"	"Vishay-Dale"	"CRCW04023K09FKED"	"1"	"0.01"	"Resistance"	"3.09kOhm"	"Tolerance"	"1%"	"Power"	"0.063W"	"0402"
+"Riterm"	"Vishay-Dale"	"CRCW04021K43FKED"	"1"	"0.01"	"Resistance"	"1.43kOhm"	"Tolerance"	"1%"	"Power"	"0.063W"	"0402"
+"Rpgood"	"Vishay-Dale"	"CRCW04021K50FKED"	"1"	"0.01"	"Resistance"	"1.5kOhm"	"Tolerance"	"1%"	"Power"	"0.063W"	"0402"
+"Rs"	"Panasonic"	"ERJ-3RSFR10V"	"1"	"0.03"	"Resistance"	"0.1Ohm"	"Tolerance"	"1%"	"Power"	"0.1W"	"0603"
+"Rset"	"Vishay-Dale"	"CRCW04021K74FKED"	"1"	"0.01"	"Resistance"	"1.74kOhm"	"Tolerance"	"1%"	"Power"	"0.063W"	"0402"
+"Rthm"	"MuRata"	"NCP15XH103E03RC"	"1"	"0.03"	"Resistance_25C"	"10kOhm"	"Bref_T1_T2"	"3.38k"	"Resistance_Tol_pct"	"3%"	"0402"
+"Rtmr"	"Vishay-Dale"	"CRCW040256K2FKED"	"1"	"0.01"	"Resistance"	"56.2kOhm"	"Tolerance"	"1%"	"Power"	"0.063W"	"0402"
+"U1"	"Texas Instruments"	"BQ24232RGTR"	"1"	"1"	""	""	""	""	""	""	"RGT0016C"

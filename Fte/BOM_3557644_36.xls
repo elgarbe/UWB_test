@@ -1,0 +1,5 @@
+Part	Manufacturer	Part Number	Quantity	Price	Attribute 1 Name	Attribute 1 Value	Attribute 2 Name	Attribute 2 Value	Attribute 3 Name	Attribute 3 Value	Footprint
+"Cin"	"MuRata"	"GRM155R60J475ME87D"	"1"	"0.02"	""	""	""	""	""	""	"0402"
+"Cout"	"MuRata"	"GRM188R60J106ME47D"	"1"	"0.02"	""	""	""	""	""	""	"0603"
+"L1"	"Vishay-Dale"	"IHLP1212AEER1R0M11"	"1"	"0.56"	"L"	"1uH"	"DCR"	"0.033Ohm"	"IDC"	"3.9A"	"IHLP-1212AE"
+"U1"	"Texas Instruments"	"TPS62063DSGR"	"1"	"0.75"	""	""	""	""	""	""	"DSG0008A"

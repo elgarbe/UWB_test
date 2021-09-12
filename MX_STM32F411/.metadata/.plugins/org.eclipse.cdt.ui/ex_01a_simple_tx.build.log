@@ -1,0 +1,39 @@
+14:46:36 **** Incremental Build of configuration Debug for project ex_01a_simple_tx ****
+make all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+E:\UWB\MX_STM32F411\ex_01a_simple_tx\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F4 -DSTM32 -DSTM32F411RETx -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -I"E:/UWB/MX_STM32F411/dwm1000_f411_hal_lib" -I"E:/UWB/MX_STM32F411/ex_01a_simple_tx/inc" -I"E:/UWB/MX_STM32F411/dwm1000_f411_hal_lib/CMSIS/core" -I"E:/UWB/MX_STM32F411/dwm1000_f411_hal_lib/CMSIS/device" -I"E:/UWB/MX_STM32F411/dwm1000_f411_hal_lib/HAL_Driver/Inc/Legacy" -I"E:/UWB/MX_STM32F411/dwm1000_f411_hal_lib/HAL_Driver/Inc" -I"E:/UWB/DW_API_rev2p03_F411/decadriver" -I"E:/UWB/DW_API_rev2p03_F411/platform" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: E:/UWB/DW_API_rev2p03_F411/platform/deca_spi.c
+Invoking: MCU GCC Compiler
+E:\UWB\MX_STM32F411\ex_01a_simple_tx\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F4 -DSTM32 -DSTM32F411RETx -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -I"E:/UWB/MX_STM32F411/dwm1000_f411_hal_lib" -I"E:/UWB/MX_STM32F411/ex_01a_simple_tx/inc" -I"E:/UWB/MX_STM32F411/dwm1000_f411_hal_lib/CMSIS/core" -I"E:/UWB/MX_STM32F411/dwm1000_f411_hal_lib/CMSIS/device" -I"E:/UWB/MX_STM32F411/dwm1000_f411_hal_lib/HAL_Driver/Inc/Legacy" -I"E:/UWB/MX_STM32F411/dwm1000_f411_hal_lib/HAL_Driver/Inc" -I"E:/UWB/DW_API_rev2p03_F411/decadriver" -I"E:/UWB/DW_API_rev2p03_F411/platform" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"platform/deca_spi.d" -MT"platform/deca_spi.o" -o "platform/deca_spi.o" "E:/UWB/DW_API_rev2p03_F411/platform/deca_spi.c"
+E:/UWB/DW_API_rev2p03_F411/platform/deca_spi.c: In function 'readfromspi':
+E:/UWB/DW_API_rev2p03_F411/platform/deca_spi.c:181:23: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+     HAL_StatusTypeDef error=0;
+                       ^
+Finished building: E:/UWB/DW_API_rev2p03_F411/platform/deca_spi.c
+ 
+Building file: E:/UWB/DW_API_rev2p03_F411/platform/port.c
+Invoking: MCU GCC Compiler
+E:\UWB\MX_STM32F411\ex_01a_simple_tx\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F4 -DSTM32 -DSTM32F411RETx -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -I"E:/UWB/MX_STM32F411/dwm1000_f411_hal_lib" -I"E:/UWB/MX_STM32F411/ex_01a_simple_tx/inc" -I"E:/UWB/MX_STM32F411/dwm1000_f411_hal_lib/CMSIS/core" -I"E:/UWB/MX_STM32F411/dwm1000_f411_hal_lib/CMSIS/device" -I"E:/UWB/MX_STM32F411/dwm1000_f411_hal_lib/HAL_Driver/Inc/Legacy" -I"E:/UWB/MX_STM32F411/dwm1000_f411_hal_lib/HAL_Driver/Inc" -I"E:/UWB/DW_API_rev2p03_F411/decadriver" -I"E:/UWB/DW_API_rev2p03_F411/platform" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"platform/port.d" -MT"platform/port.o" -o "platform/port.o" "E:/UWB/DW_API_rev2p03_F411/platform/port.c"
+Finished building: E:/UWB/DW_API_rev2p03_F411/platform/port.c
+ 
+Building target: ex_01a_simple_tx.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -L"E:\UWB\MX_STM32F411\dwm1000_f411_hal_lib\Debug" -T"E:\UWB\MX_STM32F411\ex_01a_simple_tx\LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "ex_01a_simple_tx.elf" @"objects.list"  -ldwm1000_f411_hal_lib -lm
+Finished building target: ex_01a_simple_tx.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "ex_01a_simple_tx.elf" "ex_01a_simple_tx.bin"
+arm-none-eabi-size "ex_01a_simple_tx.elf"
+   text	   data	    bss	    dec	    hex	filename
+  14304	   1108	   1264	  16676	   4124	ex_01a_simple_tx.elf
+ 
+
+14:46:38 Build Finished (took 2s.188ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;ex_05b_ds_twr_resp_LCD/NOKIA_LCD_Lib&apos;" deleteContents="false" description="Delete resource &apos;ex_05b_ds_twr_resp_LCD/NOKIA_LCD_Lib&apos;" element1="/ex_05b_ds_twr_resp_LCD/NOKIA_LCD_Lib" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1500224916265"/>
+</session>

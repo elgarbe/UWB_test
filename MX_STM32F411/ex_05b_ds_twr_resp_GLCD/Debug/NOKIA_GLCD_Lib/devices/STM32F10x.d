@@ -1,0 +1,2 @@
+NOKIA_GLCD_Lib/devices/STM32F10x.o: \
+ E:/ARM/NOKIA5110_LCD/NOKIA_GLCD_Lib/devices/STM32F10x.c

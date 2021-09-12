@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;UWB_F103C8T6_INIT&apos;" deleteContents="true" description="Delete resource &apos;UWB_F103C8T6_INIT&apos;" element1="/UWB_F103C8T6_INIT" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1496372207015"/>
+</session>

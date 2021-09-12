@@ -1,0 +1,23 @@
+14:15:35 **** Incremental Build of configuration Debug for project ex_05b_ds_twr_resp_LCD ****
+make all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+E:\UWB\MX_STM32F411\ex_05b_ds_twr_resp_LCD\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F4 -DSTM32 -DSTM32F411RETx -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -I"E:/UWB/MX_STM32F411/dwm1000_f411_hal_lib" -I"E:/ARM/NOKIA5110_LCD/stm32f4_pcd8544" -I"E:/UWB/MX_STM32F411/ex_05b_ds_twr_resp_LCD/inc" -I"E:/UWB/MX_STM32F411/dwm1000_f411_hal_lib/CMSIS/core" -I"E:/UWB/MX_STM32F411/dwm1000_f411_hal_lib/CMSIS/device" -I"E:/UWB/MX_STM32F411/dwm1000_f411_hal_lib/HAL_Driver/Inc/Legacy" -I"E:/UWB/MX_STM32F411/dwm1000_f411_hal_lib/HAL_Driver/Inc" -I"E:/UWB/DW_API_rev2p03_F411/decadriver" -I"E:/UWB/DW_API_rev2p03_F411/platform" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: ex_05b_ds_twr_resp_LCD.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -L"E:\UWB\MX_STM32F411\dwm1000_f411_hal_lib\Debug" -T"E:\UWB\MX_STM32F411\ex_05b_ds_twr_resp_LCD\LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "ex_05b_ds_twr_resp_LCD.elf" @"objects.list"  -ldwm1000_f411_hal_lib -lm
+Finished building target: ex_05b_ds_twr_resp_LCD.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "ex_05b_ds_twr_resp_LCD.elf" "ex_05b_ds_twr_resp_LCD.bin"
+arm-none-eabi-size "ex_05b_ds_twr_resp_LCD.elf"
+   text	   data	    bss	    dec	    hex	filename
+  39136	   2556	   2024	  43716	   aac4	ex_05b_ds_twr_resp_LCD.elf
+ 
+
+14:15:36 Build Finished (took 1s.364ms)
+

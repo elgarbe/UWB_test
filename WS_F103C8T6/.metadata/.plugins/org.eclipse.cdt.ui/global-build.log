@@ -1,0 +1,391 @@
+23:58:05 **** Build of configuration Debug for project UWB_F103C8T6_INIT ****
+make all 
+Building file: ../startup/startup_stm32f103xb.s
+Invoking: MCU GCC Assembler
+E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT\Debug
+arm-none-eabi-as -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -g -o "startup/startup_stm32f103xb.o" "../startup/startup_stm32f103xb.s"
+Finished building: ../startup/startup_stm32f103xb.s
+ 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/UWB_F103C8T6_INIT/Inc" -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building file: ../Src/stm32f1xx_hal_msp.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/UWB_F103C8T6_INIT/Inc" -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_hal_msp.d" -MT"Src/stm32f1xx_hal_msp.o" -o "Src/stm32f1xx_hal_msp.o" "../Src/stm32f1xx_hal_msp.c"
+Finished building: ../Src/stm32f1xx_hal_msp.c
+ 
+Building file: ../Src/stm32f1xx_it.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/UWB_F103C8T6_INIT/Inc" -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_it.d" -MT"Src/stm32f1xx_it.o" -o "Src/stm32f1xx_it.o" "../Src/stm32f1xx_it.c"
+Finished building: ../Src/stm32f1xx_it.c
+ 
+Building file: ../Src/system_stm32f1xx.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/UWB_F103C8T6_INIT/Inc" -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/system_stm32f1xx.d" -MT"Src/system_stm32f1xx.o" -o "Src/system_stm32f1xx.o" "../Src/system_stm32f1xx.c"
+Finished building: ../Src/system_stm32f1xx.c
+ 
+Building file: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/UWB_F103C8T6_INIT/Inc" -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.o" -o "Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.o" "C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c"
+Finished building: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
+ 
+Building file: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/UWB_F103C8T6_INIT/Inc" -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.o" -o "Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.o" "C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c"
+Finished building: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
+ 
+Building file: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/UWB_F103C8T6_INIT/Inc" -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.o" -o "Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.o" "C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c"
+Finished building: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
+ 
+Building file: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/UWB_F103C8T6_INIT/Inc" -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.o" -o "Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.o" "C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c"
+Finished building: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
+ 
+Building file: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/UWB_F103C8T6_INIT/Inc" -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.o" -o "Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.o" "C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c"
+Finished building: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
+ 
+Building file: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/UWB_F103C8T6_INIT/Inc" -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.o" -o "Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.o" "C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c"
+Finished building: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
+ 
+Building file: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/UWB_F103C8T6_INIT/Inc" -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.o" -o "Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.o" "C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c"
+Finished building: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
+ 
+Building file: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/UWB_F103C8T6_INIT/Inc" -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.o" -o "Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.o" "C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c"
+Finished building: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
+ 
+Building file: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/UWB_F103C8T6_INIT/Inc" -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.o" -o "Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.o" "C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c"
+Finished building: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
+ 
+Building file: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/UWB_F103C8T6_INIT/Inc" -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.o" -o "Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.o" "C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c"
+Finished building: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
+ 
+Building file: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/UWB_F103C8T6_INIT/Inc" -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.d" -MT"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.o" -o "Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.o" "C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c"
+Finished building: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c
+ 
+Building file: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi_ex.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/UWB_F103C8T6_INIT/Inc" -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi_ex.o" -o "Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi_ex.o" "C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi_ex.c"
+Finished building: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi_ex.c
+ 
+Building file: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/UWB_F103C8T6_INIT/Inc" -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.o" -o "Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.o" "C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c"
+Finished building: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
+ 
+Building file: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/UWB_F103C8T6_INIT/Inc" -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.o" -o "Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.o" "C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c"
+Finished building: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
+ 
+Building file: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\UWB_F103C8T6_INIT\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/UWB_F103C8T6_INIT/Inc" -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_uart.d" -MT"Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_uart.o" -o "Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_uart.o" "C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c"
+Finished building: C:/Users/elgarbe/STM32Cube/Repository/STM32Cube_FW_F1_V1.4.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
+ 
+Building target: UWB_F103C8T6_INIT.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "UWB_F103C8T6_INIT.elf" @"objects.list"   -lm
+Finished building target: UWB_F103C8T6_INIT.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "UWB_F103C8T6_INIT.elf" "UWB_F103C8T6_INIT.bin"
+arm-none-eabi-size "UWB_F103C8T6_INIT.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5584	     12	   1724	   7320	   1c98	UWB_F103C8T6_INIT.elf
+ 
+23:58:49 **** Incremental Build of configuration Debug for project UWB_F103C8T6_INIT ****
+make all 
+make: Nothing to be done for `all'.
+00:00:15 **** Incremental Build of configuration Debug for project UWB_F103C8T6_INIT ****
+make all 
+make: Nothing to be done for `all'.
+00:00:48 **** Incremental Build of configuration Debug for project UWB_F103C8T6_INIT ****
+make all 
+make: Nothing to be done for `all'.
+00:01:10 **** Incremental Build of configuration Debug for project UWB_F103C8T6_INIT ****
+make all 
+make: Nothing to be done for `all'.
+00:02:27 **** Incremental Build of configuration Debug for project f103c8t6_hal_lib ****
+make all 
+make: Nothing to be done for `all'.
+00:02:28 **** Incremental Build of configuration Debug for project ex_05b_ds_twr_respt ****
+make all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\ex_05b_ds_twr_respt\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32F1 -DSTM32F103C8Tx -DSTM32 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib" -I"E:/UWB/dw1000_api_rev2p02/decadriver" -I"E:/UWB/dw1000_api_rev2p02/platform" -I"E:/UWB/WS_F103C8T6/ex_05b_ds_twr_respt/inc" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/CMSIS/core" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/CMSIS/device" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/HAL_Driver/Inc/Legacy" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: ex_05b_ds_twr_respt.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -L"E:\UWB\WS_F103C8T6\f103c8t6_hal_lib\Debug" -T"E:\UWB\WS_F103C8T6\ex_05b_ds_twr_respt\LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "ex_05b_ds_twr_respt.elf" @"objects.list"  -lf103c8t6_hal_lib -lm
+Finished building target: ex_05b_ds_twr_respt.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "ex_05b_ds_twr_respt.elf" "ex_05b_ds_twr_respt.bin"
+arm-none-eabi-size "ex_05b_ds_twr_respt.elf"
+   text	   data	    bss	    dec	    hex	filename
+  35648	   2556	   1424	  39628	   9acc	ex_05b_ds_twr_respt.elf
+ 
+00:03:47 **** Incremental Build of configuration Debug for project f103c8t6_hal_lib ****
+make all 
+make: Nothing to be done for `all'.
+00:03:48 **** Incremental Build of configuration Debug for project ex_05b_ds_twr_respt ****
+make all 
+Building file: E:/UWB/dw1000_api_rev2p02/platform/port.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\ex_05b_ds_twr_respt\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32F1 -DSTM32F103C8Tx -DSTM32 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib" -I"E:/UWB/dw1000_api_rev2p02/decadriver" -I"E:/UWB/dw1000_api_rev2p02/platform" -I"E:/UWB/WS_F103C8T6/ex_05b_ds_twr_respt/inc" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/CMSIS/core" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/CMSIS/device" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/HAL_Driver/Inc/Legacy" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"platform/port.d" -MT"platform/port.o" -o "platform/port.o" "E:/UWB/dw1000_api_rev2p02/platform/port.c"
+E:/UWB/dw1000_api_rev2p02/platform/port.c: In function 'peripherals_init':
+E:/UWB/dw1000_api_rev2p02/platform/port.c:574:6: warning: implicit declaration of function 'Error_Handler' [-Wimplicit-function-declaration]
+      Error_Handler();
+      ^
+E:/UWB/dw1000_api_rev2p02/platform/port.c: At top level:
+E:/UWB/dw1000_api_rev2p02/platform/port.c:824:6: warning: conflicting types for 'Error_Handler'
+ void Error_Handler(void)
+      ^
+E:/UWB/dw1000_api_rev2p02/platform/port.c:574:6: note: previous implicit declaration of 'Error_Handler' was here
+      Error_Handler();
+      ^
+Finished building: E:/UWB/dw1000_api_rev2p02/platform/port.c
+ 
+Building target: ex_05b_ds_twr_respt.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -L"E:\UWB\WS_F103C8T6\f103c8t6_hal_lib\Debug" -T"E:\UWB\WS_F103C8T6\ex_05b_ds_twr_respt\LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "ex_05b_ds_twr_respt.elf" @"objects.list"  -lf103c8t6_hal_lib -lm
+Finished building target: ex_05b_ds_twr_respt.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "ex_05b_ds_twr_respt.elf" "ex_05b_ds_twr_respt.bin"
+arm-none-eabi-size "ex_05b_ds_twr_respt.elf"
+   text	   data	    bss	    dec	    hex	filename
+  35656	   2556	   1424	  39636	   9ad4	ex_05b_ds_twr_respt.elf
+ 
+00:08:37 **** Incremental Build of configuration Debug for project f103c8t6_hal_lib ****
+make all 
+make: Nothing to be done for `all'.
+00:08:37 **** Incremental Build of configuration Debug for project ex_05b_ds_twr_respt ****
+make all 
+Building file: E:/UWB/dw1000_api_rev2p02/platform/port.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\ex_05b_ds_twr_respt\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32F1 -DSTM32F103C8Tx -DSTM32 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib" -I"E:/UWB/dw1000_api_rev2p02/decadriver" -I"E:/UWB/dw1000_api_rev2p02/platform" -I"E:/UWB/WS_F103C8T6/ex_05b_ds_twr_respt/inc" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/CMSIS/core" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/CMSIS/device" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/HAL_Driver/Inc/Legacy" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"platform/port.d" -MT"platform/port.o" -o "platform/port.o" "E:/UWB/dw1000_api_rev2p02/platform/port.c"
+E:/UWB/dw1000_api_rev2p02/platform/port.c: In function 'peripherals_init':
+E:/UWB/dw1000_api_rev2p02/platform/port.c:658:6: warning: implicit declaration of function 'Error_Handler' [-Wimplicit-function-declaration]
+      Error_Handler();
+      ^
+E:/UWB/dw1000_api_rev2p02/platform/port.c: At top level:
+E:/UWB/dw1000_api_rev2p02/platform/port.c:824:6: warning: conflicting types for 'Error_Handler'
+ void Error_Handler(void)
+      ^
+E:/UWB/dw1000_api_rev2p02/platform/port.c:658:6: note: previous implicit declaration of 'Error_Handler' was here
+      Error_Handler();
+      ^
+Finished building: E:/UWB/dw1000_api_rev2p02/platform/port.c
+ 
+Building target: ex_05b_ds_twr_respt.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -L"E:\UWB\WS_F103C8T6\f103c8t6_hal_lib\Debug" -T"E:\UWB\WS_F103C8T6\ex_05b_ds_twr_respt\LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "ex_05b_ds_twr_respt.elf" @"objects.list"  -lf103c8t6_hal_lib -lm
+Finished building target: ex_05b_ds_twr_respt.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "ex_05b_ds_twr_respt.elf" "ex_05b_ds_twr_respt.bin"
+arm-none-eabi-size "ex_05b_ds_twr_respt.elf"
+   text	   data	    bss	    dec	    hex	filename
+  35648	   2556	   1424	  39628	   9acc	ex_05b_ds_twr_respt.elf
+ 
+00:10:29 **** Incremental Build of configuration Debug for project f103c8t6_hal_lib ****
+make all 
+make: Nothing to be done for `all'.
+00:10:30 **** Incremental Build of configuration Debug for project ex_05b_ds_twr_respt ****
+make all 
+Building file: E:/UWB/dw1000_api_rev2p02/platform/port.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\ex_05b_ds_twr_respt\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32F1 -DSTM32F103C8Tx -DSTM32 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib" -I"E:/UWB/dw1000_api_rev2p02/decadriver" -I"E:/UWB/dw1000_api_rev2p02/platform" -I"E:/UWB/WS_F103C8T6/ex_05b_ds_twr_respt/inc" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/CMSIS/core" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/CMSIS/device" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/HAL_Driver/Inc/Legacy" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"platform/port.d" -MT"platform/port.o" -o "platform/port.o" "E:/UWB/dw1000_api_rev2p02/platform/port.c"
+E:/UWB/dw1000_api_rev2p02/platform/port.c: In function 'peripherals_init':
+E:/UWB/dw1000_api_rev2p02/platform/port.c:574:6: warning: implicit declaration of function 'Error_Handler' [-Wimplicit-function-declaration]
+      Error_Handler();
+      ^
+E:/UWB/dw1000_api_rev2p02/platform/port.c: At top level:
+E:/UWB/dw1000_api_rev2p02/platform/port.c:824:6: warning: conflicting types for 'Error_Handler'
+ void Error_Handler(void)
+      ^
+E:/UWB/dw1000_api_rev2p02/platform/port.c:574:6: note: previous implicit declaration of 'Error_Handler' was here
+      Error_Handler();
+      ^
+Finished building: E:/UWB/dw1000_api_rev2p02/platform/port.c
+ 
+Building target: ex_05b_ds_twr_respt.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -L"E:\UWB\WS_F103C8T6\f103c8t6_hal_lib\Debug" -T"E:\UWB\WS_F103C8T6\ex_05b_ds_twr_respt\LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "ex_05b_ds_twr_respt.elf" @"objects.list"  -lf103c8t6_hal_lib -lm
+Finished building target: ex_05b_ds_twr_respt.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "ex_05b_ds_twr_respt.elf" "ex_05b_ds_twr_respt.bin"
+arm-none-eabi-size "ex_05b_ds_twr_respt.elf"
+   text	   data	    bss	    dec	    hex	filename
+  35656	   2556	   1424	  39636	   9ad4	ex_05b_ds_twr_respt.elf
+ 
+00:16:40 **** Incremental Build of configuration Debug for project f103c8t6_hal_lib ****
+make all 
+make: Nothing to be done for `all'.
+00:16:41 **** Incremental Build of configuration Debug for project ex_05b_ds_twr_respt ****
+make all 
+Building file: E:/UWB/dw1000_api_rev2p02/platform/port.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\ex_05b_ds_twr_respt\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32F1 -DSTM32F103C8Tx -DSTM32 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib" -I"E:/UWB/dw1000_api_rev2p02/decadriver" -I"E:/UWB/dw1000_api_rev2p02/platform" -I"E:/UWB/WS_F103C8T6/ex_05b_ds_twr_respt/inc" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/CMSIS/core" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/CMSIS/device" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/HAL_Driver/Inc/Legacy" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"platform/port.d" -MT"platform/port.o" -o "platform/port.o" "E:/UWB/dw1000_api_rev2p02/platform/port.c"
+E:/UWB/dw1000_api_rev2p02/platform/port.c: In function 'peripherals_init':
+E:/UWB/dw1000_api_rev2p02/platform/port.c:574:6: warning: implicit declaration of function 'Error_Handler' [-Wimplicit-function-declaration]
+      Error_Handler();
+      ^
+E:/UWB/dw1000_api_rev2p02/platform/port.c: At top level:
+E:/UWB/dw1000_api_rev2p02/platform/port.c:866:6: warning: conflicting types for 'Error_Handler'
+ void Error_Handler(void)
+      ^
+E:/UWB/dw1000_api_rev2p02/platform/port.c:574:6: note: previous implicit declaration of 'Error_Handler' was here
+      Error_Handler();
+      ^
+Finished building: E:/UWB/dw1000_api_rev2p02/platform/port.c
+ 
+Building target: ex_05b_ds_twr_respt.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -L"E:\UWB\WS_F103C8T6\f103c8t6_hal_lib\Debug" -T"E:\UWB\WS_F103C8T6\ex_05b_ds_twr_respt\LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "ex_05b_ds_twr_respt.elf" @"objects.list"  -lf103c8t6_hal_lib -lm
+Finished building target: ex_05b_ds_twr_respt.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "ex_05b_ds_twr_respt.elf" "ex_05b_ds_twr_respt.bin"
+arm-none-eabi-size "ex_05b_ds_twr_respt.elf"
+   text	   data	    bss	    dec	    hex	filename
+  35656	   2556	   1424	  39636	   9ad4	ex_05b_ds_twr_respt.elf
+ 
+00:25:28 **** Incremental Build of configuration Debug for project f103c8t6_hal_lib ****
+make all 
+make: Nothing to be done for `all'.
+00:25:29 **** Incremental Build of configuration Debug for project ex_05b_ds_twr_respt ****
+make all 
+Building file: E:/UWB/dw1000_api_rev2p02/platform/port.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\ex_05b_ds_twr_respt\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32F1 -DSTM32F103C8Tx -DSTM32 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib" -I"E:/UWB/dw1000_api_rev2p02/decadriver" -I"E:/UWB/dw1000_api_rev2p02/platform" -I"E:/UWB/WS_F103C8T6/ex_05b_ds_twr_respt/inc" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/CMSIS/core" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/CMSIS/device" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/HAL_Driver/Inc/Legacy" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"platform/port.d" -MT"platform/port.o" -o "platform/port.o" "E:/UWB/dw1000_api_rev2p02/platform/port.c"
+E:/UWB/dw1000_api_rev2p02/platform/port.c: In function 'peripherals_init':
+E:/UWB/dw1000_api_rev2p02/platform/port.c:700:6: warning: implicit declaration of function 'Error_Handler' [-Wimplicit-function-declaration]
+      Error_Handler();
+      ^
+E:/UWB/dw1000_api_rev2p02/platform/port.c: At top level:
+E:/UWB/dw1000_api_rev2p02/platform/port.c:866:6: warning: conflicting types for 'Error_Handler'
+ void Error_Handler(void)
+      ^
+E:/UWB/dw1000_api_rev2p02/platform/port.c:700:6: note: previous implicit declaration of 'Error_Handler' was here
+      Error_Handler();
+      ^
+Finished building: E:/UWB/dw1000_api_rev2p02/platform/port.c
+ 
+Building target: ex_05b_ds_twr_respt.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -L"E:\UWB\WS_F103C8T6\f103c8t6_hal_lib\Debug" -T"E:\UWB\WS_F103C8T6\ex_05b_ds_twr_respt\LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "ex_05b_ds_twr_respt.elf" @"objects.list"  -lf103c8t6_hal_lib -lm
+Finished building target: ex_05b_ds_twr_respt.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "ex_05b_ds_twr_respt.elf" "ex_05b_ds_twr_respt.bin"
+arm-none-eabi-size "ex_05b_ds_twr_respt.elf"
+   text	   data	    bss	    dec	    hex	filename
+  35648	   2556	   1424	  39628	   9acc	ex_05b_ds_twr_respt.elf
+ 
+00:26:42 **** Incremental Build of configuration Debug for project f103c8t6_hal_lib ****
+make all 
+make: Nothing to be done for `all'.
+00:26:43 **** Incremental Build of configuration Debug for project ex_05b_ds_twr_respt ****
+make all 
+Building file: E:/UWB/dw1000_api_rev2p02/platform/port.c
+Invoking: MCU GCC Compiler
+E:\UWB\WS_F103C8T6\ex_05b_ds_twr_respt\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32F1 -DSTM32F103C8Tx -DSTM32 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib" -I"E:/UWB/dw1000_api_rev2p02/decadriver" -I"E:/UWB/dw1000_api_rev2p02/platform" -I"E:/UWB/WS_F103C8T6/ex_05b_ds_twr_respt/inc" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/CMSIS/core" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/CMSIS/device" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/HAL_Driver/Inc/Legacy" -I"E:/UWB/WS_F103C8T6/f103c8t6_hal_lib/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"platform/port.d" -MT"platform/port.o" -o "platform/port.o" "E:/UWB/dw1000_api_rev2p02/platform/port.c"
+E:/UWB/dw1000_api_rev2p02/platform/port.c: In function 'peripherals_init':
+E:/UWB/dw1000_api_rev2p02/platform/port.c:574:6: warning: implicit declaration of function 'Error_Handler' [-Wimplicit-function-declaration]
+      Error_Handler();
+      ^
+E:/UWB/dw1000_api_rev2p02/platform/port.c: At top level:
+E:/UWB/dw1000_api_rev2p02/platform/port.c:867:6: warning: conflicting types for 'Error_Handler'
+ void Error_Handler(void)
+      ^
+E:/UWB/dw1000_api_rev2p02/platform/port.c:574:6: note: previous implicit declaration of 'Error_Handler' was here
+      Error_Handler();
+      ^
+Finished building: E:/UWB/dw1000_api_rev2p02/platform/port.c
+ 
+Building target: ex_05b_ds_twr_respt.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -L"E:\UWB\WS_F103C8T6\f103c8t6_hal_lib\Debug" -T"E:\UWB\WS_F103C8T6\ex_05b_ds_twr_respt\LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "ex_05b_ds_twr_respt.elf" @"objects.list"  -lf103c8t6_hal_lib -lm
+Finished building target: ex_05b_ds_twr_respt.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "ex_05b_ds_twr_respt.elf" "ex_05b_ds_twr_respt.bin"
+arm-none-eabi-size "ex_05b_ds_twr_respt.elf"
+   text	   data	    bss	    dec	    hex	filename
+  35656	   2556	   1424	  39636	   9ad4	ex_05b_ds_twr_respt.elf
+ 
+00:35:14 **** Incremental Build of configuration Debug for project f103c8t6_hal_lib ****
+make all 
+make: Nothing to be done for `all'.
+00:35:15 **** Incremental Build of configuration Debug for project ex_05b_ds_twr_respt ****
+make all 
+make: Nothing to be done for `all'.
+00:38:55 **** Incremental Build of configuration Debug for project f103c8t6_hal_lib ****
+make all 
+make: Nothing to be done for `all'.
+00:38:56 **** Incremental Build of configuration Debug for project ex_05b_ds_twr_respt ****
+make all 
+make: Nothing to be done for `all'.
+00:39:10 **** Incremental Build of configuration Debug for project f103c8t6_hal_lib ****
+make all 
+make: Nothing to be done for `all'.
+00:39:11 **** Incremental Build of configuration Debug for project ex_05b_ds_twr_respt ****
+make all 
+make: Nothing to be done for `all'.
